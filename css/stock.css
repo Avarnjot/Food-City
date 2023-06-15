@@ -1,0 +1,50 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: 'Alkatra';
+/*   background: linear-gradient(#00B3FF, #33C2FF); */
+  background-image: url(../img/up-background.jpg);
+/*   background-repeat: no-repeat; */
+  background-size: contain;
+  color:#6f3318;
+}
+
+
+header{
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  color:#6f3318;
+  text-shadow: 2px 2px #b9866a;
+}
+
+main{
+  width: 100%;
+  height: 600px;
+  font-weight: bold;
+}
+
+main table{
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+main table{
+  width: fit-content;
+}
+
+td{
+  display: block;
+}
+
+tbody{
+/*   width:40%; */
+  margin-left: 120px;
+}

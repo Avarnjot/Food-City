@@ -1,0 +1,132 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #FFCEE6;
+}
+
+.container {
+    width: 100%;
+    font-family: "Pacifico";
+    color: #E56AB3;
+}
+
+header {
+    width: 100;
+    height: 160px;
+    background: linear-gradient(#EF87BE 40%, #E95AA6);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 90% 80%, 80% 100%, 70% 80%, 60% 100%, 50% 80%, 40% 100%, 30% 80%, 20% 100%, 10% 80%, 0% 100%);
+}
+
+header:hover {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 90% 100%, 80% 80%, 70% 100%, 60% 80%, 50% 100%, 40% 80%, 30% 100%, 20% 80%, 10% 100%, 0% 80%);
+    transition: .5s all;
+}
+
+header .head h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2.5em;
+    color: white;
+    text-shadow: 1px 2px #383838;
+}
+
+section {
+    width: 60%;
+    margin: 0px auto;
+}
+
+section .candy {
+    width: 100%;
+}
+
+section .content {
+    width: 100%;
+}
+
+.content img {
+    width: 100%;
+}
+
+.content p {
+    font-size: 1.3em;
+    margin-top: 20px;
+    font-family: "Pacifico";
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+}
+
+.description {
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+
+.description-img {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.description-img img {
+    width: 100%;
+    margin-left: 0px;
+}
+
+footer {
+    width: 100%;
+    background-color: #f4a4cf;
+    color: white;
+    background: linear-gradient(#EF87BE 40%, #E95AA6);
+}
+
+footer .footer-container {
+    width: 60%;
+    box-sizing: border-box;
+    font-family: "Pacifico";
+    margin: 30px auto;
+
+}
+
+.form .in-form {
+    width: 70%;
+    margin: 0px auto;
+}
+
+.form .form-head {
+    width: 70%;
+    margin: 0px auto;
+}
+
+.row {
+    width: 100%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.row .in-row2 {
+    text-align: center;
+}
+
+.text2 {
+    font-size: 1.2em;
+}
+
+.footer-head {
+    margin: 20px auto;
+}
+
+.company-info {
+    font-size: 1.2em;
+}

@@ -1,0 +1,117 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+	background:linear-gradient(skyblue 10%,#4fc8f8 90%);
+  background-color: skyblue;
+  font-family: 'Pacifico';
+}
+
+form {
+  width: 650px;
+  height: 700px;
+  border: 3px solid #ff7fba;
+  border-top-left-radius: 10% ;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 45%;
+  border-bottom-right-radius: 45%;
+  margin: 0px auto;
+/*   background-image: url(./img/ocean.png);  
+  background-size: cover;
+  background-repeat: no-repeat; */
+/*   background-color: #ffc0d9; */
+	background:linear-gradient(#ffc0d9 10%,#ffa8cb 90%);
+  position: relative;
+  display: grid;
+  grid-template-rows: 4fr 1fr;
+}
+
+.form-head{
+  width: 650px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  font-size: 1.2em;
+}
+
+form div{
+  height: 100px;
+  font-size: 1.1em;
+} 
+
+.form-head label{
+/*   color: #0CE2BE; */
+  color: #ffc0d9;
+}
+
+
+.name{
+  padding-top: 60px;
+  background-image: url(../img/strawberry.png) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 350%;
+  text-align: center;
+}
+
+
+.email{
+  padding-top: 60px;
+  background-image: url(../img/strawberry.png) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 350%;
+  text-align: center;
+
+}
+
+.password{
+  padding-top: 60px;
+  background-image: url(../img/strawberry.png) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 350% ;
+  text-align: center;
+}
+
+.button{
+  margin: auto auto;
+  font-size: 2.5em;
+}
+
+button{
+  border: none;
+  font-family: 'Pacifico';
+  border-top-left-radius: 10% ;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 45%;
+  border-bottom-right-radius: 45%;
+  font-size: 0.8em;
+/*   background-color: #108e8b;
+  color: white; */
+  background-color: #e20c30;
+  color: #ffa8cb;
+}
+
+button:hover, button:active{
+/*   background-color: white;
+  color: #108e8b; */
+  background-color:#ffa8cb;
+  color: #e20c30;
+  transition: 0.5s all;
+}
+
+input {
+  border: none;
+  width: 2em;
+  padding-top: 10px;
+  border-radius: 20%;
+  background-color: #ffc0d9;
+}
+
+input:active, input:hover{
+  width: 10em;
+  border: 3px solid #e20c30;
+}
