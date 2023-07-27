@@ -1,3 +1,1 @@
-# Food-City
-
-Food City is a dynamic website for the grocery store that helps seek users/customers to roam around in the grocery store without even being physically present there.
+The Food City website aims to offer an attractive and user-friendly platform for customers to explore a wide variety of food products and services. With its visually appealing design and straightforward navigation, the website encourages users to discover different product categories and avail themselves of ongoing offers. The emphasis on quality, freshness, and stock availability instills confidence in users about the brand's commitment to excellence. Overall, the website seeks to create a positive and engaging experience, enticing visitors to become loyal customers of Food City.
